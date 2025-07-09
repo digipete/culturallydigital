@@ -1,0 +1,21 @@
+# robots.txt for culturallydigital.co.uk
+
+# Allow all user agents to crawl everything
+User-agent: *
+
+# Disallow common sensitive or non-indexable paths (if applicable)
+Disallow: /admin/
+Disallow: /login/
+Disallow: /cart/
+Disallow: /checkout/
+Disallow: /privacy-policy/
+Disallow: /terms/
+Disallow: /404
+Disallow: /drafts/
+Disallow: /temp/
+
+# Allow all public pages and directories
+Allow: /
+
+# Point to your sitemap
+Sitemap: https://culturallydigital.co.uk/sitemap.xml
